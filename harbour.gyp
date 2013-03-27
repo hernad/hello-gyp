@@ -13,7 +13,25 @@
           'type': 'static_library',
           'sources': [
               '<(hrb_common)/expropt1.c',
-              '<(hrb_common)/expropt2.c'
+              '<(hrb_common)/expropt2.c',
+              '<(hrb_common)/funcid.c',
+              '<(hrb_common)/hbarch.c',
+              '<(hrb_common)/hbdate.c',
+              '<(hrb_common)/hbffind.c',
+              '<(hrb_common)/hbfopen.c',
+              '<(hrb_common)/hbfsapi.c',
+              '<(hrb_common)/hbgete.c',
+              '<(hrb_common)/hbhash.c',
+              '<(hrb_common)/hbmem.c',
+              '<(hrb_common)/hbprintf.c',
+              '<(hrb_common)/hbstrbm.c',
+              '<(hrb_common)/hbstr.c',
+              '<(hrb_common)/hbtrace.c',
+              '<(hrb_common)/hbver.c',
+              '<(hrb_common)/hbverdsp.c',
+              '<(hrb_common)/hbwin.c',
+              '<(hrb_common)/hbwince.c',
+              '<(hrb_common)/strwild.c'
           ],
 
           'cflags': [
